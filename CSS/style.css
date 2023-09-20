@@ -1,0 +1,53 @@
+.mypic {
+    border: 6px solid black;
+    border-radius: 50%;
+}
+
+.texth1 {
+    color: white;
+}
+
+.texth {
+    color: Black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.textp, text {
+    font-family: 'Asul', sans-serif;
+    font-weight: 600;
+}
+.bg-img {
+    background-image: url("../Assets/bgporfolio.jpg");
+    color: black;
+}
+
+.bg-img2 {
+    background-image: url("../Assets/bgporfolio.jpg");
+    color: black;
+    opacity: 10%;
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #181716, #393433, #57504d);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
